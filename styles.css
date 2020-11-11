@@ -20,28 +20,6 @@ button{
     width: 75px;
     border-color: black;
     border-radius: 5px;
-    background-color: rgb(236, 54, 54);
-    color: white;
-}
+    
 
-body {
-    background-color: lightgrey;
-}
-
-
-h2{
-    grid-row-start: 3;
-    font-size: 30px;
-    width: 200px;
-    margin: 0;
-    padding-top: 5%;
-}
-main {
-    display: grid;
-    grid-template-rows: auto auto auto;
-}
-
-
-.result div{
-    width: 100%
 }
