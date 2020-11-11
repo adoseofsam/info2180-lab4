@@ -10,16 +10,65 @@ header {
     justify-content: center;
     align-items: center;
     grid-row-start: 1;
-    font-size: 30px;
     background-color: #4479eb;
     color: white;
+    font-size: 35px;
+}
+
+body{
+    background-color: lightgrey;
+}
+
+p{
+    font-size: 20px;
 }
 
 button{
     height: 25px;
-    width: 75px;
     border-color: black;
     border-radius: 5px;
-    
+    width: 75px;
+    background-color: rgb(236, 54, 54);
+    color: white;
+}
 
+main {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    grid-row-start: 2;
+    height: 100%;
+    width: 100%;
+}
+#para div {
+    grid-row-start: 1;
+}
+
+h2{
+    width: 200px;
+    grid-row-start: 3;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 5%;
+}
+
+
+hr {
+    color: rgb(114, 111, 111);
+    margin: 0;
+}
+
+input{
+    width: 500px;
+    height: 20px;
+}
+
+
+form {
+    grid-row-start: 2;
+}
+
+.result div{
+    width: 100%
 }
