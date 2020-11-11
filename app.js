@@ -13,3 +13,4 @@ window.onload = function() {
     httpRequest.open('GET', url);
     httpRequest.send();
   }
+}
