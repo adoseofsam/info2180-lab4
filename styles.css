@@ -1,0 +1,8 @@
+.container {
+    display: grid;
+    grid-template-rows: 155px auto;
+}
+
+.result div{
+    width: 100%
+}
